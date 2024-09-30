@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.form{
+    height: 100vh;
+    width: 100vw;
+    padding: 100px 20px;
+}
+.row{
+   
+    margin: auto;
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 100px 50px; 
+    background-color: skyblue;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 0px 30px 0px 30px;
+    border: 2px solid grey;
+}
+
+.edit{
+    width: 100%;
+}
+
+.pic{
+    height: 100%;
+    width:100%;
+}
+.edit img{
+    height: 100%;
+    width:100%;
+    box-shadow: 0px 0px 20px white;
+}
+
+.edit input{
+
+    padding: 10px 20px;
+    background-color: rgb(238, 46, 120);
+    color: whitesmoke;
+    font-weight: 700;
+
+}
